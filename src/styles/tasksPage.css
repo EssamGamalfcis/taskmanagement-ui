@@ -1,0 +1,53 @@
+.tasks-container {
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.back-button {
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add-task {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.add-task input[type="text"],
+.add-task input[type="date"] {
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.add-task button {
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tasks-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tasks-table th,
+.tasks-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.tasks-table th {
+  background-color: #f5f5f5;
+}
